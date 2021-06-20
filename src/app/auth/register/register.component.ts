@@ -15,7 +15,7 @@ export class RegisterComponent {
   public formSubmitted = false;
 
   public registerForm = this.fb.group({
-    name: ['teleperformas', Validators.required],
+    name: ['teleperformance', Validators.required],
     password: ['123456', Validators.required],
     password2: ['123456', Validators.required],
     role: ['', Validators.required],
